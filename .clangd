@@ -1,0 +1,11 @@
+CompileFlags:
+  Add:
+    - -I/home/tan/Documents/Programming_Massively_Parallel_Processors/.venv/lib/python3.13/site-packages/torch/include
+    - -I/home/tan/Documents/Programming_Massively_Parallel_Processors/.venv/lib/python3.13/site-packages/torch/include/torch/csrc/api/include
+    - -I/home/tan/Documents/Programming_Massively_Parallel_Processors/.venv/lib/python3.13/site-packages/functorch/include
+    # Add CUDA include paths if you're using CUDA
+    - -I/usr/local/cuda/include
+    # Python headers
+    - -I/usr/include/python3.10
+    - -I/usr/include/python3.10
+  Compiler: clang++
